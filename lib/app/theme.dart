@@ -1,0 +1,10 @@
+import 'package:flutter/material.dart';
+
+class AppTheme {
+  static final light = ThemeData(
+    colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+    useMaterial3: true,
+    fontFamily: 'Times New Roman',
+    appBarTheme: const AppBarTheme(centerTitle: true),
+  );
+}
