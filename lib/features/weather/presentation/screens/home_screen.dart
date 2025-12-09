@@ -74,7 +74,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 const SizedBox(width: 8),
                 ElevatedButton(
                   onPressed: () => ref.read(weatherControllerProvider.notifier).loadCity(_controller.text),
-                  child: const Text('Load'),
+                  child: const Text('Search'),
                 ),
                 IconButton(
                   icon: const Icon(Icons.favorite_border),
