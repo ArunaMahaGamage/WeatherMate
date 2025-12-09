@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import '../../widgets/forecast_chart.dart';
-import '../controllers/weather_controller.dart';
+import '/core/widgets/forecast_chart.dart';
+import '/viewmodel/weather_controller.dart';
 
 class ForecastScreen extends ConsumerWidget {
   const ForecastScreen({super.key});

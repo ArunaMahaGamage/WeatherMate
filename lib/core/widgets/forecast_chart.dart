@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
-import '../data/models/forecast.dart';
 import 'package:intl/intl.dart';
+
+import '../../models/forecast.dart';
 
 class ForecastChart extends StatelessWidget {
   final Forecast forecast;

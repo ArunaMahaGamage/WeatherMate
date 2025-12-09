@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../data/favorites_repository.dart';
+import '../repository/favorites_repository.dart';
 
 /// State class for Favorites
 class FavoritesState {

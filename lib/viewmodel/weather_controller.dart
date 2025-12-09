@@ -1,9 +1,9 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../data/weather_repository.dart';
-import '../../data/models/current_weather.dart';
-import '../../data/models/forecast.dart';
-import '../../../favorites/data/favorites_repository.dart';
-import '../../data/weather_service.dart';
+import '../../../models/current_weather.dart';
+import '../../../models/forecast.dart';
+import '../repository/favorites_repository.dart';
+import '../repository/weather_repository.dart';
+import '../repository/weather_service.dart';
 
 class WeatherState {
   final CurrentWeather? current;

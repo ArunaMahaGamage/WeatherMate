@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import '../controllers/weather_controller.dart';
+import '/viewmodel/weather_controller.dart';
 
 class SearchScreen extends ConsumerWidget {
   const SearchScreen({super.key});

@@ -1,9 +1,9 @@
 import 'package:go_router/go_router.dart';
-import '../features/weather/presentation/screens/home_screen.dart';
-import '../features/weather/presentation/screens/search_screen.dart';
-import '../features/weather/presentation/screens/forecast_screen.dart';
-import '../features/weather/presentation/screens/favorites_screen.dart';
-import '../features/weather/presentation/screens/alerts_screen.dart';
+import '../features/home_screen.dart';
+import '../features/search_screen.dart';
+import '../features/forecast_screen.dart';
+import '../features/favorites_screen.dart';
+import '../features/alerts_screen.dart';
 
 final router = GoRouter(
   initialLocation: '/',

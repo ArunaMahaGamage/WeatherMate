@@ -1,5 +1,5 @@
-import 'models/current_weather.dart';
-import 'models/forecast.dart';
+import '../models/current_weather.dart';
+import '../models/forecast.dart';
 import 'weather_service.dart';
 
 class WeatherRepository {
